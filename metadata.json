@@ -1,0 +1,6 @@
+{
+  "name": "SyncCinema Premium",
+  "description": "Ultra HD Streaming Player & Offline Movie Download Manager",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

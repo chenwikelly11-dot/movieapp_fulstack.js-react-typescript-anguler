@@ -1,0 +1,10 @@
+@import "../index.css";
+
+
+.angular-badge {
+  @apply bg-red-500/10 border border-red-500/20 text-red-400 font-mono font-bold text-[10px] px-2 py-0.5 rounded-full uppercase;
+}
+
+.react-badge {
+  @apply bg-sky-500/10 border border-sky-400/20 text-sky-450 font-mono font-bold text-[10px] px-2 py-0.5 rounded-full uppercase;
+}
