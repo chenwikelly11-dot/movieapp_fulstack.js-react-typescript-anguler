@@ -65,12 +65,8 @@ Open your preferred web browser and navigate to:
 
 ##  Pushing to GitHub
 
-To store your workspace on a remote GitHub repository, use these classic sequential Git commands in your VS Code terminal:
+To store your workspace on a remote GitHub repository, use these classic sequential Git commands in your VS Code terminal:https://github.com/chenwikelly11-dot/movieapp_fulstack.js-react-typescript-anguler
 
-### 1. Initialize local Git repository (if not already initialized)
-```bash
-git init
-```
 
 ### 2. Stage your files
 Stage all changes in the project directory, respecting the `.gitignore` exclusions:
@@ -78,27 +74,9 @@ Stage all changes in the project directory, respecting the `.gitignore` exclusio
 git add .
 ```
 
-### 3. Commit your code
-Create a local snapshot commit:
-```bash
-git commit -m "feat: implement SyncCinema Premium with authentication guard and offline downloader"
-```
-
-### 4. Create your remote GitHub repository
-Go to [GitHub.com](https://github.com), sign in, and click the **New** repository button. Give it a name (e.g., `spin-cinema-premium`) and leave it empty (do *not* add a README, license, or `.gitignore` since these are already created).
-
-### 5. Link and Push
-Copy the remote repository URL from GitHub and paste it into the commands below:
-```bash
-
-git branch -M main
 
 
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 
-
-git push -u origin main
-```
 
 ---
 
